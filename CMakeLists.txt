@@ -8,13 +8,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt6 6.2 COMPONENTS Quick REQUIRED)
 
 qt_add_executable(apptic_tac_toe
-    main.cpp
+    app/main.cpp
 )
 
 qt_add_qml_module(apptic_tac_toe
     URI tic_tac_toe
     VERSION 1.0
-    QML_FILES main.qml 
+    QML_FILES app/qml/main.qml
 )
 
 set_target_properties(apptic_tac_toe PROPERTIES
