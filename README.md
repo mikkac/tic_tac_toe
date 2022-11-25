@@ -1,2 +1,2 @@
-# tic_tac_toe
+# QML TicTacToe
 Simple TicTacToe made with QML
