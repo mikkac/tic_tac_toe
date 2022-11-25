@@ -14,7 +14,10 @@ qt_add_executable(apptic_tac_toe
 qt_add_qml_module(apptic_tac_toe
     URI tic_tac_toe
     VERSION 1.0
-    QML_FILES app/qml/main.qml
+    QML_FILES
+        app/qml/main.qml
+        app/qml/assets/icons/cross.png
+        app/qml/assets/icons/circle.png
 )
 
 set_target_properties(apptic_tac_toe PROPERTIES
